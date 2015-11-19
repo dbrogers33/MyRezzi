@@ -20,14 +20,20 @@ img {
 }
 
 nav ul {
-	margin-top: 2em;
+	margin-top: 1em;
 	list-style-type: none;
 	float: right;
 }
 
 nav ul li {
 	text-decoration: none;
-	display: inline;
+	display: inline-block;
+}
+
+nav ul li:nth-child(3) {
+	padding: .5em 0;
+	border: solid white 2px;
+	border-radius: .5em;
 }
 
 nav ul li a {
@@ -139,3 +145,60 @@ nav ul li a {
 .how-it-works img {
 	width: 90%;
 }
+
+.pricing-table {
+	background: #2fd1ce; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #2fd1ce 0%, #0eaeab 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  #2fd1ce 0%,#0eaeab 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  #2fd1ce 0%,#0eaeab 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2fd1ce', endColorstr='#0eaeab',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	min-height: 450px;
+	text-align: center;
+}
+
+.pricing-table h1, .pricing-table h4 {
+	color: white;
+}
+
+.price-card {
+	background-color: white;
+	width: 29% !important;
+	margin: 0 2%;
+	border-radius: 1em;
+}
+
+.price {
+	color: red;
+	font-size: 4em;
+}
+
+.price span {
+	font-size: 25px;
+}
+
+.subscribe {
+	background: #464646;
+}
+
+.subscribe h2 {
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

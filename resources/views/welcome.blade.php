@@ -16,7 +16,7 @@
                 <nav>
                     <ul>
                         <li><a href="#">pricing</a></li>
-                        <li><a href="#">resources</a></li>
+                        <li><a href="#">explore</a></li>
                         <li><a href="#">login</a></li>
                         <li><a href="#">sign up</a></li>
                     </ul>
@@ -48,14 +48,6 @@
 <div class="container template">
     <h1>View Our Custom Templates</h1>
     <h4>choose from over <strong><em>150 templates</em></strong> in our standard, professional, and premium packages</h4>
-</div>
-<div class="container">
-    <ul class="nav nav-tabs">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Menu 1</a></li>
-        <li><a href="#">Menu 2</a></li>
-        <li><a href="#">Menu 3</a></li>
-    </ul>
 </div>
 <div class="container-fluid">
     <div class="container">
@@ -102,9 +94,39 @@
         <h1>How it <span><em>Works</em></span></h1>
         <h3>our easy 3 step process to your perfect resume</h3>
     </div>
+
+    <!-- Row 1 -->
     <div class="row">
         <div class="col-sm-5">
-            <img src="assets/images/computer.png">
+            <img src="<?php echo asset('images/computer.png'); ?>">
+        </div>
+        <div class="col-sm-1">
+            <span class="number">1</span>
+        </div>
+        <div class="col-sm-6">
+            <h2>Choose a Professional Template</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in efficitur leo. Sed vel tortor quis urna vehicula hendrerit. Ut venenatis diam sed risus rutrum, non semper lacus venenatis. Nulla facilisi.  Nunc molestie, justo luctus vehicula rhoncus, arcu dui cursus nisl, et bibendum lacus nisi ac mauris. Nunc convallis nisi consectetur eros congue.</p>
+        </div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row">
+        <div class="col-sm-6">
+            <h2>Choose a Professional Template</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in efficitur leo. Sed vel tortor quis urna vehicula hendrerit. Ut venenatis diam sed risus rutrum, non semper lacus venenatis. Nulla facilisi.  Nunc molestie, justo luctus vehicula rhoncus, arcu dui cursus nisl, et bibendum lacus nisi ac mauris. Nunc convallis nisi consectetur eros congue.</p>
+        </div>
+        <div class="col-sm-1">
+            <span class="number">1</span>
+        </div>
+        <div class="col-sm-5">
+            <img src="<?php echo asset('images/computer.png'); ?>">
+        </div>
+    </div>
+
+    <!-- Row 3-->
+    <div class="row">
+        <div class="col-sm-5">
+            <img src="<?php echo asset('images/computer.png'); ?>">
         </div>
         <div class="col-sm-1">
             <span class="number">1</span>
@@ -117,4 +139,84 @@
 </div>
 <!-- end how it works -->
 
+<!-- Start Pricing Table -->
+<div class="container-fluid pricing-table">
+    <div class="container">
+        <div class="row">
+        <h1>Take Your Resume to the Next Level</h1>
+        <h4>choose the package that's right for you</h4>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 price-card">
+                <h3>Standard</h3>
+                <h2 class="price">$0</h2>
+                <p>Budget Option for Users</p>
+                <p>Select from <b>10 templates</b></p>
+                <p>Sign Up for Free</p>
+                <p>Sign Up for Free</p>
+                <p>Sign Up for Free</p>
+                <a href="#">Sign Up</a>
+            </div>
+            <div class="col-sm-4 price-card">
+                <h3>Standard</h3>
+                <h2 class="price">$10/<span>month</span></h2>
+                <p>Budget Option for Users</p>
+                <p>Select from <b>10 templates</b></p>
+                <p>Sign Up for Free</p>
+                <p>Sign Up for Free</p>
+                <p>Sign Up for Free</p>
+                <a href="#">Sign Up</a>
+            </div>
+            <div class="col-sm-4 price-card">
+                <h3>Standard</h3>
+                <h2 class="price">$30/<span>month</span></h2>
+                <p>Budget Option for Users</p>
+                <p>Select from <b>10 templates</b></p>
+                <p>Sign Up for Free</p>
+                <p>Sign Up for Free</p>
+                <p>Sign Up for Free</p>
+                <a href="#">Sign Up</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Pricing Table -->
+
+
+<!-- Start Subscribe -->
+<div class="container-fluid subscribe">
+    <div class="container">
+        <h2>Receive Tips That Lead to a Career</h2>
+        <div class="row">
+            <form>
+                <input class="form-control" type="text" placeholder="Email">
+                <input class="form-control" type="submit" placeholder="Subscribe">
+            </form>
+        </div>
+    </div>
+</div>
+
 @endsection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
