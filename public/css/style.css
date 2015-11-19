@@ -1,0 +1,141 @@
+/* General Rules */
+img {
+	width: 100%;
+}
+
+.banner {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2fd1ce+0,0eaeab+100 */
+	background: #2fd1ce; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #2fd1ce 0%, #0eaeab 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  #2fd1ce 0%,#0eaeab 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  #2fd1ce 0%,#0eaeab 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2fd1ce', endColorstr='#0eaeab',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	height: 600px;
+	position: relative;
+}
+
+.logo {
+	color: white;
+	margin-left: 2em;
+}
+
+nav ul {
+	margin-top: 2em;
+	list-style-type: none;
+	float: right;
+}
+
+nav ul li {
+	text-decoration: none;
+	display: inline;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	padding: 1em;
+}
+
+.headline {
+	margin-top: 5em;
+	text-align: center;
+	color: white;
+}
+
+.icon-wrapper {
+	position: relative;
+	height: 455px;
+}
+
+.icons {
+	bottom: -95px;
+	position: absolute;
+}
+
+.template {
+	margin-top: 135px;
+	margin-bottom: 55px;
+}
+
+.template h1 {
+	color: #0eaeab;
+	padding: .25em 0;
+	font-size: 3em;
+	text-align: center;
+}
+
+.template h4 {
+	text-align: center;
+}
+
+.nav-tabs .active {
+	color: red;
+}
+
+.template-slider {
+	margin-top: 5em;
+}
+
+.template-slider:first-child {
+	margin-left: 8px;
+}
+
+.sample {
+	width: 31% !important;
+	padding: 0 !important;
+	margin: 0 8px 0 8px;
+	background: #f2f2f2;
+	text-align: center;
+	height: 380px;
+	overflow: hidden;
+}
+
+.sample img {
+	width: 70%;
+}
+
+.callout {
+	margin-top: 10em;
+	background: #e04444;
+	color: white;
+}
+
+.callout-cta {
+	margin: 6em 0 7em 0;
+}
+
+.callout h1 {
+	font-size: 4em;
+}
+
+.callout .btn {
+	margin-top: 3em; 
+}
+
+.how-it-works {
+	margin-top: 8em;
+}
+
+.how-it-works h1 {
+	font-size: 3em;
+	color: #0eaeab;
+	text-align: center;
+}
+
+.how-it-works span {
+	color: #e04444;
+}
+
+.how-it-works h3 {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.how-it-works p {
+	font-size: 1.2em;
+	line-height: 2em;
+}
+
+.how-it-works img {
+	width: 90%;
+}
