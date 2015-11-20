@@ -3,6 +3,30 @@ img {
 	width: 100%;
 }
 
+.button {
+	height:75px;
+	display:inline-block;
+	font-family:Arial, "Helvetica", sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align:center;
+	text-shadow:1px 1px 0px #07526e;
+	padding:6px 1em 1em 1em;
+	margin-left:auto;
+	margin-right:auto;
+	left:30px;
+	position:relative;
+	cursor:pointer;
+	border: none;
+	background: #109bce;
+	background-image: linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
+	border-radius: 5px;
+	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e;
+}
+
 .banner {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2fd1ce+0,0eaeab+100 */
 	background: #2fd1ce; /* Old browsers */
@@ -120,6 +144,11 @@ nav ul li a {
 
 .how-it-works {
 	margin-top: 8em;
+	margin-bottom: 10em;
+}
+
+.how-it-works .row {
+	margin-top: 6em;
 }
 
 .how-it-works h1 {
@@ -154,10 +183,13 @@ nav ul li a {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2fd1ce', endColorstr='#0eaeab',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	min-height: 450px;
 	text-align: center;
+	padding-top: 5em;
+	padding-bottom: 10em;
 }
 
-.pricing-table h1, .pricing-table h4 {
+.pricing-headline {
 	color: white;
+	margin-bottom: 3em;
 }
 
 .price-card {

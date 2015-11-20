@@ -34,7 +34,7 @@
                 <img src="<?php echo asset('images/checklist.png'); ?>">
             </div>
             <div class="col-sm-4 icons">
-                <a href="#" class="btn btn-large btn-warning cta-btn">Get Started Now</a>
+                <a href="#" class="button">Get Started Now</a>
             </div>
             <div class="col-sm-4 icons">
                 <img src="<?php echo asset('images/graph.png'); ?>">
@@ -47,7 +47,7 @@
 <!-- template sections -->
 <div class="container template">
     <h1>View Our Custom Templates</h1>
-    <h4>choose from over <strong><em>150 templates</em></strong> in our standard, professional, and premium packages</h4>
+    <h4>custom and unique templates that make your resume stand out to employers</h4>
 </div>
 <div class="container-fluid">
     <div class="container">
@@ -142,39 +142,39 @@
 <!-- Start Pricing Table -->
 <div class="container-fluid pricing-table">
     <div class="container">
-        <div class="row">
-        <h1>Take Your Resume to the Next Level</h1>
-        <h4>choose the package that's right for you</h4>
+        <div class="row pricing-headline">
+            <h1>Take Your Resume to the Next Level</h1>
+            <h4>choose the package that's right for you</h4>
         </div>
         <div class="row">
             <div class="col-sm-4 price-card">
                 <h3>Standard</h3>
                 <h2 class="price">$0</h2>
-                <p>Budget Option for Users</p>
-                <p>Select from <b>10 templates</b></p>
-                <p>Sign Up for Free</p>
-                <p>Sign Up for Free</p>
-                <p>Sign Up for Free</p>
+                <p>Budget Option for Users</p><hr>
+                <p>Select from <b>10 templates</b></p><hr>
+                <p>Sign Up for Free</p><hr>
+                <p>Sign Up for Free</p><hr>
+                <p>Sign Up for Free</p><hr>
                 <a href="#">Sign Up</a>
             </div>
             <div class="col-sm-4 price-card">
                 <h3>Standard</h3>
                 <h2 class="price">$10/<span>month</span></h2>
-                <p>Budget Option for Users</p>
-                <p>Select from <b>10 templates</b></p>
-                <p>Sign Up for Free</p>
-                <p>Sign Up for Free</p>
-                <p>Sign Up for Free</p>
+                <p>Budget Option for Users</p><hr>
+                <p>Select from <b>10 templates</b></p><hr>
+                <p>Sign Up for Free</p><hr>
+                <p>Sign Up for Free</p><hr>
+                <p>Sign Up for Free</p><hr>
                 <a href="#">Sign Up</a>
             </div>
             <div class="col-sm-4 price-card">
                 <h3>Standard</h3>
                 <h2 class="price">$30/<span>month</span></h2>
-                <p>Budget Option for Users</p>
-                <p>Select from <b>10 templates</b></p>
-                <p>Sign Up for Free</p>
-                <p>Sign Up for Free</p>
-                <p>Sign Up for Free</p>
+                <p>Budget Option for Users</p><hr>
+                <p>Select from <b>10 templates</b></p><hr>
+                <p>Sign Up for Free</p><hr>
+                <p>Sign Up for Free</p><hr>
+                <p>Sign Up for Free</p><hr>
                 <a href="#">Sign Up</a>
             </div>
         </div>
@@ -190,7 +190,7 @@
         <div class="row">
             <form>
                 <input class="form-control" type="text" placeholder="Email">
-                <input class="form-control" type="submit" placeholder="Subscribe">
+                <input class="form-control btn btn-default" type="submit" placeholder="Subscribe">
             </form>
         </div>
     </div>
