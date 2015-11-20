@@ -25,6 +25,6 @@ Route::get('auth/register', 'Auth\AuthController@getRegister');
 Route::post('auth/register', 'Auth\AuthController@postRegister');
 
 //Dashboard.. Returns after login - Controlled in AuthController
-Route::get('/templates', function() {
-	return view('welcome');
+Route::get('/home', function() {
+	return view('templates');
 });

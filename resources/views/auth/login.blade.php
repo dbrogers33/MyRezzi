@@ -1,23 +1,37 @@
 <!-- resources/views/auth/login.blade.php -->
+@extends('layouts.auth')
 
-<form method="POST" action="/auth/login">
-    {!! csrf_field() !!}
+@section('title', 'Login')
 
-    <div>
-        Email
-        <input type="email" name="email" value="{{ old('email') }}">
+@section('content')
+
+<div class="container">
+    <div class="row">
+        <h1 class="logo"><a href="/"><strong><em>my</em></strong>rezzi</a></h1>
     </div>
+    <div class="row">
+        <div class="col-sm-offset-3 col-sm-6 login">
+            <div class="headline">
+                <h1>Login</h1>
+            </div>
+                <form method="POST" action="/auth/login">
+                    {!! csrf_field() !!}
 
-    <div>
-        Password
-        <input type="password" name="password" id="password">
-    </div>
+                    <div>
+                        <input class="form-control" type="email" name="email" value="{{ old('email') }}" placeholder="Email">
+                    </div>
 
-    <div>
-        <input type="checkbox" name="remember"> Remember Me
-    </div>
+                    <div>
+                        <input class="form-control" type="password" name="password" id="password" placeholder="Password">
+                    </div>
 
-    <div>
-        <button type="submit">Login</button>
+                    <div class="button-wrapper">
+                        <button class="button-red" type="submit">Login</button>
+                    </div>
+                </form>
+
+        </div>
     </div>
-</form>
+</div>
+
+@endsection
