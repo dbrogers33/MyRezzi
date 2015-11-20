@@ -1,27 +1,16 @@
-## Laravel PHP Framework
+## MyRezzi
+MyRezzi is a web application that is used to create beautiful resumes that are hosted as a site as well as downloadable as a PDF. We believe that not everyone should be a photoshop expert in order to create a eleqant resume to stand out to an employeer.
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## Built on Laravel
+MyRezzi is built on the Laravel5 framework. I'm a PHP newbie so if anyone has any suggestions, please make a pull request and leave clear comments. If you are downloading this to install make sure of a couple things..
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+1)install composer on your machine
+2)configure you .env file
+3)setup your config/database.php file
+4)create database in MySQL accordingly
+5)run 'php artisan migrate' to create databases
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+**NOTE** I am using MAMP and you'll notice in the config/database.php. Please adjust accordingly
 
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+### Contributing
+This is a private project, however, suggestions are appreciated. If you would like to work on this (or improve it) make a pull request and commit with clear and accurate description, or email me at denhamrogers10@gmail.com
