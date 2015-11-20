@@ -3,28 +3,63 @@ img {
 	width: 100%;
 }
 
-.button {
-	height:75px;
+.button-red-center {
 	display:inline-block;
 	font-family:Arial, "Helvetica", sans-serif;
-	font-size:16px;
+	font-size: 16px;
 	font-weight:bold;
 	color:#fff;
-	text-decoration:none;
-	text-transform:uppercase;
-	text-align:center;
+	text-decoration: none;
+	text-align: center;
 	text-shadow:1px 1px 0px #07526e;
-	padding:6px 1em 1em 1em;
-	margin-left:auto;
-	margin-right:auto;
-	left:30px;
-	position:relative;
-	cursor:pointer;
+	padding: 1em 2em 1em 2em;
+	margin-left: 22%;
+	position: relative;
+	cursor: pointer;
 	border: none;
-	background: #109bce;
+	background: #f84545;
 	background-image: linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
-	border-radius: 5px;
-	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e;
+	border-radius: 0.75em;
+	box-shadow: inset 0px 1px 0px #ce3939, 0px 5px 0px 0px #ce3939;
+}
+
+.button-red {
+	display:inline-block;
+	font-family:Arial, "Helvetica", sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+	color:#fff;
+	text-decoration: none;
+	text-align: center;
+	text-shadow:1px 1px 0px #07526e;
+	padding: 1em 5em 1em 5em;
+	position: relative;
+	cursor: pointer;
+	border: none;
+	background: #f84545;
+	background-image: linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
+	border-radius: 0.75em;
+	box-shadow: inset 0px 1px 0px #ce3939, 0px 5px 0px 0px #ce3939;
+}
+
+.button-blue {
+	display:inline-block;
+	font-family:Arial, "Helvetica", sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+	color:#fff;
+	text-decoration: none;
+	text-align: center;
+	text-shadow:1px 1px 0px #07526e;
+	padding: 1em 2em 1em 2em;
+	margin-top: 3em;
+	position: relative;
+	cursor: pointer;
+	border: none;
+	background: #0eaeab;
+	background-image: linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
+	border-radius: 0.75em;
+	box-shadow: inset 0px 1px 0px #0b8280, 0px 5px 0px 0px #0b8280;
 }
 
 .banner {
@@ -197,6 +232,7 @@ nav ul li a {
 	width: 29% !important;
 	margin: 0 2%;
 	border-radius: 1em;
+	padding-bottom: 2em;
 }
 
 .price {

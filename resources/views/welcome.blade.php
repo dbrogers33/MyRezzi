@@ -17,8 +17,8 @@
                     <ul>
                         <li><a href="#">pricing</a></li>
                         <li><a href="#">explore</a></li>
-                        <li><a href="#">login</a></li>
-                        <li><a href="#">sign up</a></li>
+                        <li><a href="auth/login">login</a></li>
+                        <li><a href="auth/register">sign up</a></li>
                     </ul>
                 </nav>
             </div>
@@ -34,7 +34,7 @@
                 <img src="<?php echo asset('images/checklist.png'); ?>">
             </div>
             <div class="col-sm-4 icons">
-                <a href="#" class="button">Get Started Now</a>
+                <a href="#" class="button-red-center">Get Started Now</a>
             </div>
             <div class="col-sm-4 icons">
                 <img src="<?php echo asset('images/graph.png'); ?>">
@@ -81,7 +81,7 @@
                 <h3><em>No credit card required. Your step closer to your professional career.</em></h3>
             </div>
             <div class="col-sm-3">
-                <a href="#" class="btn btn-large btn-success">Build Your Resume</a>
+                <a href="#" class="button-blue">Build Your Resume</a>
             </div>
         </div>
     </div>
@@ -155,7 +155,7 @@
                 <p>Sign Up for Free</p><hr>
                 <p>Sign Up for Free</p><hr>
                 <p>Sign Up for Free</p><hr>
-                <a href="#">Sign Up</a>
+                <a class="button-red" href="#">Sign Up</a>
             </div>
             <div class="col-sm-4 price-card">
                 <h3>Standard</h3>
@@ -165,7 +165,7 @@
                 <p>Sign Up for Free</p><hr>
                 <p>Sign Up for Free</p><hr>
                 <p>Sign Up for Free</p><hr>
-                <a href="#">Sign Up</a>
+                <a class="button-red" href="#">Sign Up</a>
             </div>
             <div class="col-sm-4 price-card">
                 <h3>Standard</h3>
@@ -175,7 +175,7 @@
                 <p>Sign Up for Free</p><hr>
                 <p>Sign Up for Free</p><hr>
                 <p>Sign Up for Free</p><hr>
-                <a href="#">Sign Up</a>
+                <a class="button-red" href="#">Sign Up</a>
             </div>
         </div>
     </div>
