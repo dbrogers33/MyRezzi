@@ -5,7 +5,7 @@
 }
 
 .headline {
-	ackground: #2fd1ce; /* Old browsers */
+	background: #2fd1ce; /* Old browsers */
 	background: -moz-radial-gradient(center, ellipse cover,  #2fd1ce 0%, #0eaeab 100%); /* FF3.6-15 */
 	background: -webkit-radial-gradient(center, ellipse cover,  #2fd1ce 0%,#0eaeab 100%); /* Chrome10-25,Safari5.1-6 */
 	background: radial-gradient(ellipse at center,  #2fd1ce 0%,#0eaeab 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
